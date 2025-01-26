@@ -1,0 +1,6 @@
+﻿services:
+  promosharp.api:
+    image: promosharp.api
+    build:
+      context: .
+      dockerfile: PromoSharp.API/Dockerfile
