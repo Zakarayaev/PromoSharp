@@ -20,6 +20,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoSharp.Infrastructure",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoSharp.Persistence", "PromoSharp.Persistence\PromoSharp.Persistence.csproj", "{FBDB9CCA-281A-4B04-BD7F-866BFE4C4856}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoSharp.API", "PromoSharp.API\PromoSharp.API.csproj", "{7A5B8B42-75A9-478F-B7C0-A452483B6E8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F21FE485-0BB3-49BD-8AF5-5337062668E7}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +42,7 @@ Global
 		{3F6FA265-1FAA-40EB-BA20-9EBA115BD6FF} = {6B5914B7-6840-412E-8B51-76406180B795}
 		{0C55F4BF-A0B8-4891-9BF2-7307AD907E1B} = {B6303A72-B0AC-4743-9B6D-B9CE4105B6F9}
 		{FBDB9CCA-281A-4B04-BD7F-866BFE4C4856} = {B6303A72-B0AC-4743-9B6D-B9CE4105B6F9}
+		{7A5B8B42-75A9-478F-B7C0-A452483B6E8C} = {CA6D9675-3158-4C2B-BC9C-BFCC2689F5D1}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5081EE49-05A8-4487-A387-014E8D4389DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -57,5 +65,9 @@ Global
 		{FBDB9CCA-281A-4B04-BD7F-866BFE4C4856}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBDB9CCA-281A-4B04-BD7F-866BFE4C4856}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBDB9CCA-281A-4B04-BD7F-866BFE4C4856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A5B8B42-75A9-478F-B7C0-A452483B6E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5B8B42-75A9-478F-B7C0-A452483B6E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5B8B42-75A9-478F-B7C0-A452483B6E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5B8B42-75A9-478F-B7C0-A452483B6E8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
